@@ -30,3 +30,5 @@ C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.
 C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.1\FutureValue.genruntimeconfig.cache
 C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.1\FutureValue.csproj.CopyComplete
 C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Eric\source\repos\C#\Ch02FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

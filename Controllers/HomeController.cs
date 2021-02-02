@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using FutureValue.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,18 @@ namespace FutureValue.Controllers
 {
 	public class HomeController : Controller
 	{
+		[HttpGet]
 		public IActionResult Index()
 		{
-			ViewBag.Name = "Mary";
-			ViewBag.FV = 9999.99;
+			ViewBag.FV = 0;
 			return View();
+		}
+
+		[HttpPost]
+		public IActionResult Index(FutureValueModel model)
+		{
+			ViewBag.FV = model.CalculateFutureValue();
+			return View(model);
 		}
 	}
 }

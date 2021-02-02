@@ -12,8 +12,14 @@ namespace FutureValue.Models
 		public int Years { get; set; }
 		public decimal CalculateFutureValue()
 		{
-
+			int months = Years * 12;
+			decimal monthlyInterestRate = YearlyInterestRate / 12 / 100;
 			decimal futureValue = 0;
+			for (int i = 0; i < months; i++)
+			{
+				futureValue = (futureValue + MonthlyInvestment) *
+							  (1 + monthlyInterestRate);
+			}
 			return futureValue;
 		}
 	}
